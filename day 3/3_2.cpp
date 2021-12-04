@@ -43,7 +43,7 @@ int main()
         {
             if (countOx == 1)
             {
-                ox = lastOneCO;
+                ox = lastOneOx;
             }
             else
             {
@@ -69,6 +69,7 @@ int main()
             } 
         }
     }
+
 
     std::cout << std::stoi(ox, nullptr, 2) * std::stoi(co, nullptr, 2);
 
