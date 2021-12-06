@@ -14,7 +14,7 @@ struct Window
 
 int main ()
 {
-    std::ifstream read("1.txt");
+    std::ifstream read("1.in");
 
     int x = 0;
     Window windows[4]

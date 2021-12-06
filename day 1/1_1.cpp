@@ -3,7 +3,7 @@
 
 int main ()
 {
-    std::ifstream read("1.txt");
+    std::ifstream read("1.in");
 
     int a = 0, b = 0, c = 0;
 
